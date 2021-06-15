@@ -437,6 +437,11 @@ p.foot {
         width: 100%;
        
     }
+.contact h1 {
+    
+    color: #fff; 
+text-shadow: 2px 2px #000056;
+}
 
 }
 @media screen and (max-width:325px) {
