@@ -406,6 +406,9 @@ p.foot {
     
 }
 @media screen and (max-width:425px) {
+       a.logo {
+        width: 70%;
+    }
     .carousel h1 {
         font-size: 36px;
       
@@ -436,6 +439,7 @@ p.foot {
         width: 100%;
        
     }
+   
 
 }
 @media screen and (max-width:325px) {
