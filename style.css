@@ -442,6 +442,10 @@ p.foot {
     color: #fff; 
 text-shadow: 2px 2px #000056;
 }
+.contact label {
+    color: #fff;
+    font-weight: 700;
+}
 
 }
 @media screen and (max-width:325px) {
