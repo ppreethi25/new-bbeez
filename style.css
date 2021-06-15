@@ -443,7 +443,7 @@ p.foot {
 text-shadow: 2px 2px #000056;
 }
 .contact label {
-    color: #fff;
+    color: #fff !important;
     font-weight: 700;
 }
 
