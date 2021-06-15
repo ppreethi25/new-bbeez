@@ -60,9 +60,7 @@ li.nav-item:hover {
 a.dropdown-item {
     color: blue;
 }
-a.logo {
-    width: 70%;
-}
+
 /* -------------------------------------------------------------------------------- */
 /* ---------------------------about--------------------------------------------- */
 .about .curved-div {
@@ -406,7 +404,7 @@ p.foot {
     
 }
 @media screen and (max-width:425px) {
-       a.logo {
+    a.logo {
         width: 70%;
     }
     .carousel h1 {
@@ -439,7 +437,6 @@ p.foot {
         width: 100%;
        
     }
-   
 
 }
 @media screen and (max-width:325px) {
