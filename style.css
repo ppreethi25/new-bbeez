@@ -1,0 +1,446 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    overflow-x: hidden;
+}
+
+
+
+.carousel {
+    background-image: url(./images/fdsf.jpg);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    background-attachment: fixed;
+}
+.carousel-inner {
+    top: 130px;
+}
+.carousel-item {
+    text-align: center;
+}
+.carousel h1 {
+    font-size: 50px;
+    color: #ffffff;
+    text-shadow: 2px 2px #000056;
+}
+p.head{
+    
+    color: rgb(51, 53, 172);
+    font-weight: 600;
+}
+.logo img {
+    width: 35%;
+    height: 40px;
+}
+.bg-light {
+
+        background-color: #000056 !important;
+
+    
+}
+ul.navbar-nav {
+    display: flex;
+    flex-basis: 80%;
+    justify-content: space-between;
+    flex-direction: row;
+}
+a.nav-link {
+    color: #fff !important;
+   
+        font-weight: 700;
+        font-size: 16px;
+   
+}
+li.nav-item:hover {
+    background: #9e9e9eab;
+ 
+}
+a.dropdown-item {
+    color: blue;
+}
+a.logo {
+    width: 70%;
+}
+/* -------------------------------------------------------------------------------- */
+/* ---------------------------about--------------------------------------------- */
+.about .curved-div {
+    background-color: #000056;
+    color: #FFF;
+    text-align: center;
+}
+  
+ .about .curved-div svg {
+    display: block;
+  }
+/* section.about {
+    background-image: url(./images/front.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+} */
+aside {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    top: 20px;
+    box-shadow: 5px 10px 18px #3f51b5;
+}
+aside:hover {
+    box-shadow: 5px 10px 18px #3f51b5;
+    background: #fff;
+}
+aside #more {
+    display: none;
+}
+aside button#myBtn {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+    background-color: #000056;
+    border: 1px solid #fff
+}
+aside button#myBtn:hover {
+    background-color: #000056;
+}
+h1.heading1 {
+    text-align: center;
+        text-shadow: 2px 2px #091b7e;
+    color: #fff;
+}
+h1.heading {
+    text-align: center;
+        text-shadow: 2px 2px #091b7e;
+    color: rgb(14, 29, 93);
+}
+p.text {
+    color: #fff;
+   
+    text-align: justify;
+}
+p.text:hover {
+    color: blue;
+    
+}
+h2.heading {
+    text-align: center;
+    text-shadow: 2px 2px #091b7e;
+    color: rgb(14, 29, 93);
+    font-size: 36px;
+}
+hr:not([size]) {
+    height: 5px;
+    color: #000;
+    width: 250px;
+    margin: 0 auto;
+    opacity: 1.2;
+}
+.about .row {
+    padding-top: 20px;
+}
+
+h5.card-header {
+    text-align: center;
+    color: #fff;
+    font-weight: 900;
+    background-color: #000056;
+}
+.about .card {
+    height: 100%;
+    width: 100%;
+    bottom: 10px;
+}
+
+/* ----------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------------ */
+/* ----------------------------who----------------------------------- */
+section.world {
+    background-image: url(./images/Midback.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.world .col-lg-6 img {
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.world .col-lg-6 p {
+    padding-top: 20px;
+    color: #fff;
+    font-weight: 500;
+    text-align: justify;
+    background: #000056f5;
+    padding: 20px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #09095b;
+    border-color: #0d6efd;
+   
+}
+
+
+/* ------------------------------------------------------------------ */
+/* -------------------------services------------------------------- */
+section#service {
+    background-image: url(./images/images\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#service .card{
+    width: 75%;
+
+}
+.card-body1 {
+    background: #09095b;
+}
+.card-body1 h4 {
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+}
+
+.autoplay {
+    display: flex;
+    justify-content: space-between;
+    /* background: #9e9e9e; */
+}
+.autoplay.slick-initialized.slick-slider {
+    position: relative;
+    top: 20px;
+}
+p.text1 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    text-align: justify;
+}
+
+/* -------------------------------------------------------------------- */
+/* ----------------------directors----------------------------------- */
+section.directors {
+    background-image: url(./images/ncp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+}
+.directors h1 {
+    text-align: center;
+    
+}
+.flip-card img {
+    width: 90%;
+    height: 90%;
+}
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    /* box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%); */
+}
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  /* .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  } */
+  
+  .flip-card-back {
+    background-color: #673ab7;
+    color: white;
+    transform: rotateY(180deg);
+}
+/* -------------------------------------------------------- */
+/* -------------------contact------------------------------------ */
+section#contact {
+    background-image: url(./images/contact1.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section .contact .container {
+    border-radius: 5px;
+  
+    padding: 20px;
+  }
+  .contact form {
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.contact h1 {
+    text-align: center;
+    /* color: #fff; */
+}
+.contact label {
+    color: #000;
+    font-weight: 700;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #000056;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+  input[type=submit]:hover {
+    background-color: blue;
+  }
+/* ------------------------------------------------------ */
+/* ---------------footer-----------------------------------------------*/
+section.footer {
+    background-image: url(./images/images\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.footer h3 {
+    font-size: 25px;
+    color: #fff;
+}
+
+p.foot {
+    font-size: 12px;
+    color: #fff;
+}
+.footer span {
+    color: #fff;
+    font-size: 12px;
+}
+.footer .col-lg-4 {
+    padding-top: 20px;
+}
+.footer i {
+    color: #fff;
+}
+.footer p.copy {
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+}
+.footer p.copy {
+    color: #000;
+    font-size: 10px;
+    font-weight: 700;
+    text-align: center;
+    background: #fff;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+    }
+    ul.navbar-nav {
+       
+        flex-direction: column;
+    } 
+    .card-body1 h4 {
+       
+        font-size: 12px;
+      
+    }
+    section.directors {
+       
+        height: 100%;
+        width: 100%;
+    }
+    .flip-card {
+        margin: 0 auto;
+    }
+    .contact form {
+        width: 100%;
+       
+    }
+    .footer .row {
+        padding-top: 40px;
+    }
+    
+}
+@media screen and (max-width:425px) {
+    .carousel h1 {
+        font-size: 36px;
+      
+    }
+    p.text {
+       
+        font-size: 12px;
+    }
+    p.card-text1 {
+        font-size: 12px;
+    }
+    .world .col-lg-6 p {
+       
+        font-size: 12px;
+    }
+    .card-body1 h4 {
+        font-size: 9px;
+    }
+    p.text1 {
+       
+        font-size: 12px;
+        
+    }
+    .footer .row {
+        padding-top: 60px;
+    }
+    .contact form {
+        width: 100%;
+       
+    }
+
+}
+@media screen and (max-width:325px) {
+    .card-body1 h4 {
+        font-size: 7px;
+    }
+    
+}
