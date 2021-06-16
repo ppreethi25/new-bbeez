@@ -10,62 +10,63 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./slick/slick.css">
     <title>BBEEZ</title>
 </head>
 
 <body>
 
+    <navbar>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="logo" href="#">
+                    <img src="./images/Screenshot (260).png" alt="" srcset="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="logo" href="#">
-                <img src="./images/Screenshot (260).png" alt="" srcset="">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            About
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Visson</a></li>
-                            <li><a class="dropdown-item" href="#">Mission</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                About
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Visson</a></li>
+                                <li><a class="dropdown-item" href="#">Mission</a></li>
 
 
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#directors">Directors</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#service">Our Best Services</a>
-                    </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#directors">Directors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#service">Our Best Services</a>
+                        </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact Us </a>
-                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact Us </a>
+                        </li>
 
-                </ul>
+                    </ul>
 
+                </div>
             </div>
-        </div>
 
-    </nav>
+        </nav>
 
+    </navbar>
     <section class="carousel">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -100,20 +101,20 @@
 
                 <h1 class="heading1"><b>About Us</b></h1>
 
-                <aside>
+                <aside class="container">
                     <p class="text">Gamma irradiation is a physical/chemical means
                         of sterilization, because it kills bacteria by breaking
                         down bacterial DNA, inhibiting bacterial division.
                         Energy of gamma rays passes through the
                         equipment, disrupting the pathogens that cause
-                        contamination. These changes at the molecular
+                        contamination.<span id="dots">...</span><span id="more">These changes at the molecular
                         level cause the death of contaminating organisms
                         or render such organisms incapable of
                         reproduction. The gamma irradiation process does
                         not create residuals or impart radioactivity in the
                         processed items. Complete penetration can be
                         achieved depending on the thickness of the
-                        material.<span id="dots">...</span><span id="more">
+                        material.
 
                             Common application of sterilization by Gamma
                             irradiation is food. Food sterilization by gamma
@@ -240,6 +241,7 @@
 
         <div class="autoplay">
             <div class="services">
+                
                 <div class="card">
                     <img src="./images/s1.jpg" class="card-img-top" alt="...">
                     <div class="card-body1">
