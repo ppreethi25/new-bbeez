@@ -422,6 +422,14 @@ p.foot {
         width: 100%;
        
     }
+    .contact h1 {
+        text-align: center;
+        color: #fff;
+    }
+    .contact label {
+        color: #fff;
+        font-weight: 700;
+    }
     .footer .row {
         padding-top: 40px;
     }
