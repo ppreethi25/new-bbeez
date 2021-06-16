@@ -16,7 +16,7 @@ navbar {
     background-size: cover;
     height: 300px;
     background-position: top left;
-    animation: mymove 5s infinite;
+    animation: mymove 2s infinite;
 }
 @keyframes mymove {
     50% {background-position: center;}
